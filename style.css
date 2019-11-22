@@ -1,0 +1,131 @@
+body{
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+}
+
+/*------- nav ----*/
+.logo{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+/* main section */
+
+#main{
+    background: url(./image/background.png);
+    background-size: cover;
+    height: 100vh;
+}
+.header-main{
+    margin-top: 30px;
+}
+.first-h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffff;
+
+} 
+.btn-outline-light{
+    margin-left: 20px;
+}
+.btn-space{
+    margin-top: 20px;
+}
+
+/*----overview------ */
+.info{
+    width: 60%;
+    font-size: 20px;
+   
+}
+.overview-icon{
+    color:rgb(117, 62, 252);
+    font-size: 50px;
+}
+.overview-row{
+    margin-top: 5rem;
+}
+.overview-h2{
+    margin-top: 5rem;
+    font-size: 4rem;
+    color:rgb(117, 62, 252);
+}
+.overview-h3{
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+/*----testimonials------ */
+
+#testimonials{
+    background-color:rgb(117, 62, 252);
+    padding: 4rem 0;
+}
+.testimonials-h2{
+    
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+.carousel-item{
+    padding: 0 12rem;
+    color: white;
+    
+}
+
+/*----pricing */
+#pricing{
+    padding: 4rem 0;
+
+}
+
+.price-head{
+    color:rgb(117, 62, 252);
+    font-size: 4rem;
+}
+.card{
+    -webkit-box-shadow: 32px 28px 50px -20px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 28px 50px -20px rgba(0,0,0,0.75);
+box-shadow: 32px 28px 50px -20px rgba(0,0,0,0.75);
+
+border-color:rgb(117, 62, 252); 
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.card-text{
+    font-size: 20px;
+}
+
+.pricing-text{
+    color:rgb(117, 62, 252);
+    font-weight: bold;
+    padding: 5% 0;
+}
+/*----call to action */
+#cta{
+    background-color:rgb(117, 62, 252); 
+    padding: 8% 15%;
+}
+.cta-h1{
+    color: white;
+    font-size: 3rem;
+}
+.bt-last{
+    font-size: 2rem;
+}
+
+/*----footer */
+
+.footer-icon{
+    color: rgb(117, 62, 252); 
+    padding: 3% 2%;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .iphone-mock{
+        display: none;
+    }
+}
